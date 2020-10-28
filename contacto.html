@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>CONTACTO</title>
+</head>
+
+<style type="text/css">
+:root{
+    --colorTextos: #49454567;
+}
+
+*,
+::before,
+::after {
+	-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+form{
+    background: #fff;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input, textarea{
+    background: none;
+    color:#c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
+}
+
+input:focus,textarea:focus{
+    outline: none;
+    color: rgb(94,93,93);
+}
+
+input:focus~label, 
+input:valid~label, 
+textarea:focus~label, textarea:valid~label{
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    color: #2196F3;
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top:10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+
+input:focus~.barra::before, textarea:focus~.barra::before{
+    width: 100%;
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    transition: 0.3s ease all;
+    left: 0%;
+}
+button{
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color:#fff; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+h1{
+	background:black;
+color:#F4F6F7 ;
+text-decoration:none;
+padding:10px 15px;
+text-align: center;
+}
+
+body{
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	width: 100%;
+	margin: 0;
+	font-family: arial black ;
+    font-height: 20px;
+ background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+form{
+	width: 450px;
+	margin: auto;
+	background: white;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+input, textarea{
+	width:100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+}
+nav{
+ width: 930px;
+    margin: 30px auto;
+    background: black;
+}
+nav ul{
+    list-style: none;
+}
+ul > li {
+    display: inline-block;
+}
+ul > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li > a:hover{
+    background: white;
+    transition: all, 4s ;
+}
+ul li a{
+   float: center;
+}
+
+
+p {
+
+	margin-top: 75px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+@media screen and (max-width:640px){
+    nav {
+        width:100% ;
+    }
+    h1{
+        width:100%;
+    }
+    footer{
+        width: 100%;
+    }
+    form {
+    	width:100%;
+    }
+}
+#cleafix{
+	clear: both;
+}
+footer{
+	text-align: center;
+	background:black;
+    color:#F4F6F7 ;
+    text-decoration:none;
+    padding:10px 15px; 
+}
+p{
+   margin-bottom: 20px;
+    margin-right: 20px; 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+</style>
+<body>
+
+<br>
+<br>
+<br>
+
+<center>
+<h1>
+	CONTACTANOS
+</h1>
+<br>
+<br>
+</center>
+<br>
+<br>
+<br>
+<br>
+<nav >
+<ul >
+                <li> <a href="index.html">Inicio       </a></li>
+                <li> <a href="#">Contacto   </a></li>
+                <li> <a href="noticia.html">Noticia        </a></li>
+                <li> <a href="categoria1.html">Categoria 1  </a></li>
+                <li> <a href="categoria2.html">Categoria 2  </a></li>
+                <li> <a href="categoria3.html">Categoria 3  </a></li>
+                <li> <a href="categoria4.html">Categoria 4  </a></li>               
+</ul>
+</nav>
+<br>
+<br>
+<br>
+ <form>
+        <div class="form">
+            <h2>INSERTE DATOS</h2>
+            <div class="grupo">
+                <input type="text" name="nombre" id="nombre" required><span class="barra"></span>
+                <label>Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="email" id="email" required><span class="barra"></span>
+                <label>Email</label>
+            </div>
+            <div class="grupo">
+                <input type="number" name="edad" id="edad" required><span class="barra"></span>
+                <label>Edad</label>
+            </div>
+            <div class="grupo">
+                <textarea name="mensaje" id="mensaje" rows="3" required></textarea><span class="barra"></span>
+                <label>Mensaje</label>
+            </div>
+            <button type="submit">ENVIAR</button>
+        </div>
+    </form>
+<br>
+<br>
+<br>
+<br>
+	<div id="cleafix"></div>
+<footer>
+	Derechos & Copy by Diego, 2020
+</footer>
+
+</body>
+</html>
